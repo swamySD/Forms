@@ -1,0 +1,23 @@
+
+.inputs{
+    padding: 12px;
+    margin:10px 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.formInputs{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+
+}
+.span{
+    font-size:12px;
+    padding: 3px;
+    color: red;
+    display: none;
+}
+
+.inputs:invalid~span{
+    display: block;
+}
